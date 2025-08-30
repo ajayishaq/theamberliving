@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background: linear-gradient(to right, #fff, #fffbe6);
+}
+
+.text-amber {
+    color: #ffc107 !important;
+}
+
+.btn-amber {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #343a40;
+}
+
+.btn-amber:hover {
+    background-color: #e0a800;
+    border-color: #e0a800;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1628176377422-3e3e3184b9db?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb');
+    background-size: cover;
+    color: white;
+}
+
+.carousel-img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.property-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.property-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.favorite-btn.active i {
+    color: #dc3545;
+}
+
+footer {
+    background-color: #343a40;
+}
